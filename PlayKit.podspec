@@ -17,7 +17,7 @@ s.tvos.deployment_target = '9.0'
 
 s.subspec 'Core' do |sp|
     sp.source_files = 'Classes/**/*'
-    sp.dependency 'SwiftyJSON', '3.1.4'
+    sp.dependency 'SwiftyJSON', '4.3.0'
     sp.dependency 'XCGLogger', '~> 7.0'
     sp.dependency 'SwiftyXMLParser', '3.0.3'
     sp.dependency 'KalturaNetKit', '~> 1.1.0' + suffix
